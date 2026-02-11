@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /anthropic/solutions/cloud-infra-ai
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /common/bedrock_access_patterns
+    schedule:
+      interval: daily
